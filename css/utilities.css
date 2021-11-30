@@ -1,0 +1,182 @@
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bold
+{
+    font-weight:bold;
+}
+
+.bolder
+{
+    font-weight:bold;
+    font-weight: 900;
+}
+
+.no-underline
+{
+    text-decoration: none;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-x-2
+{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1.5fr;
+    column-gap: 20px;
+}
+
+.grid-x-4
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+
+.lg-font
+{
+    font-size: 1.1rem;
+}
+
+.xl-font
+{
+    font-size: 1.8rem;
+}
+
+.lger-font
+{
+    font-size: 1.2rem;
+}
+
+.lgest-font
+{
+    font-size: 4.3rem;
+}
+
+.font-white
+{
+    color: white;
+}
+
+.align-center
+{
+    display: grid;
+    align-items: center;
+}
+
+.justify-center
+{
+    justify-items: center;
+}
+
+.card-border
+{
+    height: 490px;
+    width: 100%;
+    border: rgba(66, 66, 66, .2) .1px solid;
+    border-radius: 15px;
+    box-shadow: rgba(20, 20, 20, .08)  0 5px 10px 1px; 
+}
+
+.resort-card
+{
+    height: 395px;
+    width: 100%;
+    object-fit:cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-txt-padding
+{
+    padding: 10px 0px 0px 20px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+
+.form-padding-sm
+{
+    padding: 10px 0px;
+}
+
+.form-padding-med
+{
+    padding: 15px 0px;
+}
+
+.form-padding-btn
+{
+    padding: 5px;
+}
+
+.footer-reg
+{
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-login
+{
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-abt
+{
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-resort-listing
+{
+    position: fixed;
+    bottom: 0px;
+}
+
+.form-border
+{
+    border: 2.5px solid black;
+    line-height: 30px;
+}
+
+.grid-form
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    min-width: 100px;
+    max-width: 1200px;
+}
+
+.padding-after
+{
+    padding-bottom: 8px;
+}
+
+#hero-section > img
+{
+    width: 100%;
+    max-width: 100%;
+}
+
+.txt-align-center
+{
+    text-align: center;
+}
+
+#hero-txt
+{
+    min-width: 100px;
+    max-width: 900px;
+}
